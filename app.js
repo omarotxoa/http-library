@@ -39,13 +39,13 @@ const data = {
 // PUT request
 // Update Post
 // Here we are updating the post with ID of one with the above data we created.
-http.put('https://jsonplaceholder.typicode.com/posts/1', data, function(error, post) {
-    if(error) {
-        console.log(error);
-    } else {
-        console.log(post);
-    }
-});
+// http.put('https://jsonplaceholder.typicode.com/posts/1', data, function(error, post) {
+//     if(error) {
+//         console.log(error);
+//     } else {
+//         console.log(post);
+//     }
+// });
 
 
 // DELETE Request
