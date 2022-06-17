@@ -47,3 +47,13 @@ http.put('https://jsonplaceholder.typicode.com/posts/1', data, function(error, p
     }
 });
 
+
+// DELETE Request
+// This deletes the post with ID of 1
+http.delete('https://jsonplaceholder.typicode.com/posts/1', function(error, posts) {
+    if(error) {
+        console.log(error);
+    } else {
+        console.log(posts);
+    }
+});
